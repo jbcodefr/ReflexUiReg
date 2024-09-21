@@ -42,6 +42,30 @@ def render_auth_page():
                         align="center",
                         justify="center"    
                     ),
+                    rx.button(
+                        rx.icon(tag="twitter",size=15),
+                        "twitter",
+                        width="100%",
+                        variant="surface",
+                        cursor="pointer",
+                        color_scheme="bronze"
+                    ),
+                    rx.button(
+                        rx.icon(tag="linkedin",size=15),
+                        "linkedin",
+                        width="100%",
+                        variant="surface",
+                        cursor="pointer",
+                        color_scheme="bronze"
+                    ),
+                    rx.button(
+                        rx.icon(tag="Github",size=15),
+                        "Github",
+                        width="100%",
+                        variant="surface",
+                        cursor="pointer",
+                        color_scheme="bronze"
+                    ),
                     width="100%",
                     max_width="50%",
                     height="100%",
