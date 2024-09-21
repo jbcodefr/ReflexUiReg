@@ -34,6 +34,14 @@ def render_auth_page():
                         variant="surface",
                         color_scheme="bronze"
                     ),
+                    rx.hstack(
+                        rx.divider(width="20%"),
+                        rx.text("Ou Continuer avec : ",font_size="10px",weight="bronze",color_scheme="gray"),
+                        rx.divider(width="20%"),
+                        width="100%",
+                        align="center",
+                        justify="center"    
+                    ),
                     width="100%",
                     max_width="50%",
                     height="100%",
